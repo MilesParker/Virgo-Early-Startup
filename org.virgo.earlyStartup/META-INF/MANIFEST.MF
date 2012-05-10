@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EarlyStartup
+Bundle-SymbolicName: org.virgo.earlyStartup;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.virgo.earlystartup.Activator
+Bundle-Vendor: Tasktop for VMWare (EPL)
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.wst.server.core,
+ org.eclipse.jdt.debug
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
